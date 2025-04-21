@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Mundo das Delícias</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="cabecalho"> <!--Cabeçalho-->
+        <nav class="navegacao navbar navbar-expand-sm py-2"> <!--barra de navegação-->
+            <div class="container">
+                <a class="navbar-brand d-flex" href="index.html"> <!--Logo-->
+                    <img class="logo img-fluid float-start" src="images/logo.png" alt="O Mundo das Delícias Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menuNavbar">
+                    <div class="navbar-nav ms-auto">
+                        <a href="#" class="nav-link m-2.5">Carnes</a>
+                        <a href="#" class="nav-link m-2.5">Massas</a>
+                        <a href="#" class="nav-link m-2.5">Lanches</a>
+                        <a href="#" class="nav-link m-2.5">Doces e Sobremesas</a>
+                        <a href="#" class="nav-link m-2.5">Bolos e tortas</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="mb-4"> <!--CARROSEL-->
+            <div class="m-5"> <!--Título-->
+                <div class="display-5 text-center pb-2 mb-4 border-bottom border-black border-2">
+                    Destaques
+                </div>
+            </div>
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="false" id="ads">
+                <!--Carrosel de destaques-->
+                <div class="carousel-indicators"> <!--Indicadores-->
+                    <button class="active" data-bs-target="#ads" data-bs-slide-to="0">
+                    </button>
+                    <button class="" data-bs-target="#ads" data-bs-slide-to="1">
+                    </button>
+                    <button class="" data-bs-target="#ads" data-bs-slide-to="2">
+                    </button>
+                </div>
+                <div class="carousel-inner"> <!--Conteúdo carrosel-->
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <a href="#">
+                            <img src="https://picsum.photos/1280/420?random=1" alt="Destaque 1" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Primeiro Slide</h5>
+                                <p>Textinho Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, quod!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="https://picsum.photos/1280/420?random=2" alt="Destaque 2" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Segundo Slide</h5>
+                                <p>Textinho Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, quod!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="https://picsum.photos/1280/420?random=3" alt="Destaque 3" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Terceiro Slide</h5>
+                                <p>Textinho Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, quod!</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div> <!--Botões anterior e próximo-->
+                    <button class="carousel-control-prev" data-bs-target="#ads" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon">
+                        </span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-target="#ads" data-bs-slide="next">
+                        <span class="carousel-control-next-icon">
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="m-5"> <!--Título-->
+            <div class="display-5 text-center pb-2 mb-4 border-bottom border-black border-2">
+                Todas a Receitas
+            </div>
+        </div>
+
+        <section class="container py-5"> <!--CARDS-->
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 g-3"> <!--Conteúdos-->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn text-"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn text-"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/400/400" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Título do Card</h5>
+                            <h6 class="card-subtitle">Subtítulo do card</h6>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem, enim recusandae
+                                incidunt
+                                sed
+                                cum ut? Quas, expedita inventore dolorum dolorem earum delectus repellat, quod nesciunt
+                                magni
+                                quia,
+                                explicabo consequuntur.
+                            </p>
+                            <a href="#" class="link-light"><button type="button" class="btn"
+                                    style="background-color:#4c9628;">Ver mais</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer> <!--Finalizar-->
+        <div class="m-5">
+            <div class="display-6 pb-2 mb-4 border-bottom border-black border-2 col text-center">
+                Informações do(a) Aluno(a)
+            </div>
+        </div>    
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <p class="text-start">
+                            Diretório de Receitas desenvolvido para o trabalho da disciplica de Desenvolvimento de
+                            Interfaces Web na PUC Minas.
+                            Este projeto é um diretório de receitas responsivo, onde há diversas receitas com diferentes
+                            categorias.
+                        </p>
+                    </div>
+
+                    <div class="col-5 text-center ms-auto">
+                        <p class="h4 mb-3 titulo" style="color:#4c9628; font-weight: bold;">Autoria</p>
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-user fa-5x"></i>
+                            </div>
+                            <div class="col-9">
+                                <p class="preencher">Aluno:</p>
+                                <p></p>
+                                <br>
+                                <p class="preencher">Curso:</p>
+                                <p>Ciência da Computação</p>
+                                <br>
+                                <p class="preencher">Turma:</p>
+                                <p class="informacao">Manhã</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
