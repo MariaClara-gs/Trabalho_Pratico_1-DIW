@@ -39,26 +39,57 @@
         <div class="display-5 text-center pb-2 mb-4 border-bottom border-black border-2">
             Título Receita
         </div>
-        <div class="col-5">
-            <div class="card mb-3">
-                <div class="row g-0">
-                    <div class="col-md-2">
-                        <img src="images\bolo-de-cenoura1.jpg" class="img-conteudo img-fluid rounded-start"
-                            alt="bolo-de-cenoura">
-                    </div>
-                    <div class="col-md-10">
-                        <div class="card-body">
-                            <h5 class="card-title">Bolo de Cenoura</h5>
-                            <p class="card-text">Um bolo fofinho, fácil de preparar, com uma deliciosa cobertura de
-                                chocolate que agrada todo mundo.</p>
+        <div class="layout"> <!--Layout personalizado com JSON-->
+            <div class="row">
+                
+                <div class="col-4">
+                    <img src="images\bolo-de-cenoura1.jpg" class="img-conteudo img-fluid" alt="bolo-de-cenoura">
+                </div>
+
+                <div class="col-8">
+                    <h5 class="display-4 titulo-2">Uma delícia para o café da manhã!</h5>
+                    <p class="texto-layout">Um bolo fofinho, fácil de preparar, com uma deliciosa cobertura de
+                        chocolate que agrada todo mundo.</p>
+
+                    <div class="row">
+
+                        <div class="col-md-4 col-sm-6 mb-3 mb-sm-0">
+                            <div class="card"> <!--Para mostrar tempo de preparo-->
+                                <div class="card-body text-center">
+                                    <div class="conteudo-card">
+                                    <h5 class="card-title titulo-card"><i class="fa fa-clock-o"></i> Tempo de preparo:</h5>
+                                    <p class=" card-text texto-card"> 50 minutos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb-3 mb-sm-0">
+                            <div class="card"> <!--Para mostrar tempo de preparo-->
+                                <div class="card-body">
+                                    <h5 class="card-title titulo-card"><i class="fa fa-clock-o"></i> Tempo de preparo
+                                    </h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+
+                    <div class="my-4"> <!--Ingredientes-->
+                    <h4 class="text-start py-2">Ingredientes</h4>
+                    <ul>
+                        <li><p class="ingredientes">Ingrediente 1</p></li>
+                        <li><p class="ingredientes">Ingrediente 2</p></li>
+                        <li><p class="ingredientes">Ingrediente 3</p></li>
+                        <li><p class="ingredientes">Ingrediente 4</p></li>
+                        <li><p class="ingredientes">Ingrediente 5</p></li>
+                        <li><p class="ingredientes">Ingrediente 6</p></li>
+                    </ul>
+                </div> <!--Fim ingredientes-->
+
+
             </div>
         </div>
     </div>
-
-
 </body>
 
 </html>
