@@ -7,10 +7,10 @@ const dados = {"receitas": [
         "prepTime": "50 minutos",
         "dificuldade": "Média",
         "images": [
-            { "id": 1, src: "assets/img/bolo-de-cenoura1", "legenda": "Bolo de cenoura recém-assado" },
-            { "id": 2, src: "assets/img/bolo-de-cenoura2", "legenda": "Fatia servida com cobertura" },
-            { "id": 3, src: "assets/img/bolo-de-cenoura3", "legenda": "Massa no liquidificador" },
-            { "id": 4, src: "assets/img/bolo-de-cenoura4", "legenda": "Ganache de chocolate brilhante" }
+            { "id": 1, src: "assets/img/bolo-de-cenoura1.jpg", "legenda": "Bolo de cenoura recém-assado" },
+            { "id": 2, src: "assets/img/bolo-de-cenoura2.jpg", "legenda": "Fatia servida com cobertura" },
+            { "id": 3, src: "assets/img/bolo-de-cenoura3.jpg", "legenda": "Massa no liquidificador" },
+            { "id": 4, src: "assets/img/bolo-de-cenoura4.jpg", "legenda": "Ganache de chocolate brilhante" }
         ],
         "ingredientes": [
         "3 cenouras médias",
@@ -37,10 +37,10 @@ const dados = {"receitas": [
                     "prepTime": "1h 15 minutos",
                         "dificuldade": "Média",
                             "images": [
-                                { "id": 1, src: "assets/img/lasanha-a-bolonesa1", "legenda": "Pedaço da Lasanha já servida" },
-                                { "id": 2, src: "assets/img/lasanha-a-bolonesa2", "legenda": "Camadas de queijo e molho" },
-                                { "id": 3, src: "assets/img/lasanha-a-bolonesa3", "legenda": "Fatia de lasanha com queijo em cima" },
-                                { "id": 4, src: "assets/img/lasanha-a-bolonesa4", "legenda": "Fatia servida!" }
+                                { "id": 1, src: "assets/img/lasanha-a-bolonhesa1.jpg", "legenda": "Pedaço da Lasanha já servida" },
+                                { "id": 2, src: "assets/img/lasanha-a-bolonhesa2.jpg", "legenda": "Camadas de queijo e molho" },
+                                { "id": 3, src: "assets/img/lasanha-a-bolonhesa3.jpg", "legenda": "Fatia de lasanha com queijo em cima" },
+                                { "id": 4, src: "assets/img/lasanha-a-bolonesa4.jpg", "legenda": "Fatia servida!" }
                             ],
                                 "ingredientes": [
                                     "Massa de lasanha pré-cozida",
@@ -67,10 +67,10 @@ const dados = {"receitas": [
                     "prepTime": "25 minutos",
                         "dificuldade": "Fácil",
                             "images": [
-                                { "id": 1, src: "assets/img/brigadeiro1", "legenda": "Brigadeiro em forma de amor" },
-                                { "id": 2, src: "assets/img/brigadeiro2", "legenda": "Docinhos enrolados e prontos" },
-                                { "id": 3, src: "assets/img/brigadeiro3", "legenda": "Detalhe do granulado artesanal" },
-                                { "id": 4, src: "assets/img/brigadeiro4", "legenda": "Massa cremosa à base de cacau" }
+                                { "id": 1, src: "assets/img/brigadeiro1.jpg", "legenda": "Brigadeiro em forma de amor" },
+                                { "id": 2, src: "assets/img/brigadeiro2.jpg", "legenda": "Docinhos enrolados e prontos" },
+                                { "id": 3, src: "assets/img/brigadeiro3.jpg", "legenda": "Detalhe do granulado artesanal" },
+                                { "id": 4, src: "assets/img/brigadeiro4.jpg", "legenda": "Massa cremosa à base de cacau" }
                             ],
                                 "ingredientes": [
                                     "1 lata de leite condensado",
@@ -94,10 +94,10 @@ const dados = {"receitas": [
                     "prepTime": "2h 30 minutos",
                         "dificuldade": "Difícil",
                             "images": [
-                                { "id": 1, src: "assets/img/feijoada1", "legenda": "Feijoada no prato já pronto" },
-                                { "id": 2, src: "assets/img/feijoada2", "legenda": "Acompanhamentos tradicionais" },
-                                { "id": 3, src: "assets/img/feijoada3", "legenda": "Prato servido com laranja e couve" },
-                                { "id": 4, src: "assets/img/feijoada4", "legenda": "Carne seca e linguiça" }
+                                { "id": 1, src: "assets/img/feijoada1.png", "legenda": "Feijoada no prato já pronto" },
+                                { "id": 2, src: "assets/img/feijoada2.png", "legenda": "Acompanhamentos tradicionais" },
+                                { "id": 3, src: "assets/img/feijoada3.png", "legenda": "Prato servido com laranja e couve" },
+                                { "id": 4, src: "assets/img/feijoada4.jpg", "legenda": "Carne seca e linguiça" }
                             ],
                                 "ingredientes": [
                                     "500g de feijão preto",
@@ -122,10 +122,10 @@ const dados = {"receitas": [
                     "prepTime": "1h 15 minutos",
                         "dificuldade": "Média",
                             "images": [
-                                { "id": 1, src: "assets/img/escondidinho1", "legenda": "Escondidinho fresco na travessa" },
-                                { "id": 2, src: "assets/img/escondidinho2", "legenda": "Camadas de purê e carne" },
-                                { "id": 3, src: "assets/img/escondidinho3", "legenda": "Purê cremoso de mandioca" },
-                                { "id": 4, src: "assets/img/escondidinho4", "legenda": "Finalização com queijo gratinado" }
+                                { "id": 1, src: "assets/img/escondidinho1.png", "legenda": "Escondidinho fresco na travessa" },
+                                { "id": 2, src: "assets/img/escondidinho2.png", "legenda": "Camadas de purê e carne" },
+                                { "id": 3, src: "assets/img/escondidinho3.png", "legenda": "Purê cremoso de mandioca" },
+                                { "id": 4, src: "assets/img/escondidinho4.png", "legenda": "Finalização com queijo gratinado" }
                             ],
                                 "ingredientes": [
                                     "500g de carne moída",
@@ -150,10 +150,10 @@ const dados = {"receitas": [
                     "prepTime": "1h 30 minutos",
                         "dificuldade": "Média",
                             "images": [
-                                { "id": 1, src: "assets/img/torta1", "legenda": "Corte mostrando recheio cremoso" },
-                                { "id": 2, src: "assets/img/torta2", "legenda": "Raspas de limão para decorar" },
-                                { "id": 3, src: "assets/img/torta3", "legenda": "Base de biscoito crocante" },
-                                { "id": 4, src: "assets/img/torta4", "legenda": "Torta de limão pronta" }
+                                { "id": 1, src: "assets/img/torta1.png", "legenda": "Corte mostrando recheio cremoso" },
+                                { "id": 2, src: "assets/img/torta2.png", "legenda": "Raspas de limão para decorar" },
+                                { "id": 3, src: "assets/img/torta3.png", "legenda": "Base de biscoito crocante" },
+                                { "id": 4, src: "assets/img/torta4.png", "legenda": "Torta de limão pronta" }
                             ],
                                 "ingredientes": [
                                     "1 pacote de biscoito maisena",
@@ -178,10 +178,10 @@ const dados = {"receitas": [
                     "prepTime": "50 minutos",
                         "dificuldade": "Fácil",
                             "images": [
-                                { "id": 1, src: "assets/img/quiche1", "legenda": "Fatia servida" },
-                                { "id": 2, src: "assets/img/quiche2", "legenda": "Recheio cremoso de alho-poró" },
-                                { "id": 3, src: "assets/img/quiche3", "legenda": "Massa folhada dourada" },
-                                { "id": 4, src: "assets/img/quiche4", "legenda": "Quiche recém saiu do forno" }
+                                { "id": 1, src: "assets/img/quiche1.png", "legenda": "Fatia servida" },
+                                { "id": 2, src: "assets/img/quiche2.png", "legenda": "Recheio cremoso de alho-poró" },
+                                { "id": 3, src: "assets/img/quiche3.png", "legenda": "Massa folhada dourada" },
+                                { "id": 4, src: "assets/img/quiche4.png", "legenda": "Quiche recém saiu do forno" }
                             ],
                                 "ingredientes": [
                                     "1 massa pronta para quiche",
@@ -206,10 +206,10 @@ const dados = {"receitas": [
                     "prepTime": "45 minutos",
                         "dificuldade": "Fácil",
                             "images": [
-                                { "id": 1, src: "assets/img/panqueca1", "legenda": "Panquecas recheadas prontas" },
-                                { "id": 2, src: "assets/img/panqueca2", "legenda": "Inclua um molho especial por cima!" },
-                                { "id": 3, src: "assets/img/panqueca3", "legenda": "Recheio de frango cremoso" },
-                                { "id": 4, src: "assets/img/panqueca4", "legenda": "Panquecas prontas para serem consumidas" }
+                                { "id": 1, src: "assets/img/panqueca1.png", "legenda": "Panquecas recheadas prontas" },
+                                { "id": 2, src: "assets/img/panqueca2.png", "legenda": "Inclua um molho especial por cima!" },
+                                { "id": 3, src: "assets/img/panqueca3.png", "legenda": "Recheio de frango cremoso" },
+                                { "id": 4, src: "assets/img/panqueca4.png", "legenda": "Panquecas prontas para serem consumidas" }
                             ],
                                 "ingredientes": [
                                     "Massa de panqueca (ovo, leite, farinha)",
@@ -233,10 +233,10 @@ const dados = {"receitas": [
                     "prepTime": "20 minutos",
                         "dificuldade": "Fácil",
                             "images": [
-                                { "id": 1, src: "assets/img/macarrao1", "legenda": "Macarrão com acompanhamento" },
-                                { "id": 2, src: "assets/img/macarrao2", "legenda": "Macarrão acompanhado de tomates" },
-                                { "id": 3, src: "assets/img/macarrao3", "legenda": "Manjericão fresco por cima" },
-                                { "id": 4, src: "assets/img/macarrao4", "legenda": "Detalhe do prato servido" }
+                                { "id": 1, src: "assets/img/macarrao1.png", "legenda": "Macarrão com acompanhamento" },
+                                { "id": 2, src: "assets/img/macarrao2.png", "legenda": "Macarrão acompanhado de tomates" },
+                                { "id": 3, src: "assets/img/macarrao3.png", "legenda": "Manjericão fresco por cima" },
+                                { "id": 4, src: "assets/img/macarrao4.png", "legenda": "Detalhe do prato servido" }
                             ],
                                 "ingredientes": [
                                     "250g de macarrão",
@@ -253,55 +253,159 @@ const dados = {"receitas": [
 }
   ]};
 
-  document.addEventListener('DOMContentLoaded', () => {
-    // Pega as três primeiras receitas
-    const destaques = dados.receitas.slice(0, 3);
-    
-    const indicators = document.querySelector('#ads .carousel-indicators');
-    const inner = document.querySelector('#ads .carousel-inner');
-    
-    // Limpa o que já existe no HTML estático
-    indicators.innerHTML = '';
-    inner.innerHTML = '';
-    
-    destaques.forEach((receita, idx) => {
-      // === Indicador ===
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.setAttribute('data-bs-target', '#ads');
-      btn.setAttribute('data-bs-slide-to', idx);
-      if (idx === 0) btn.classList.add('active');
-      indicators.appendChild(btn);
-      
-      // === Item do carrossel ===
-      const item = document.createElement('div');
-      item.classList.add('carousel-item');
-      if (idx === 0) item.classList.add('active');
-      item.setAttribute('data-bs-interval', '3000');
-      
-      const link = document.createElement('a');
-      link.href = `#`; // ou `/receita.html?id=${receita.id}` se tiver página própria
-      
-      const img = document.createElement('img');
-      // usa a primeira imagem da receita (adapte extensão se necessário)
-      img.src = receita.images[0].src + '.jpg';
-      img.alt = receita.titulo;
-      img.classList.add('d-block', 'w-100');
-      link.appendChild(img);
-      
-      const caption = document.createElement('div');
-      caption.classList.add('carousel-caption', 'd-none', 'd-md-block');
-      
-      const h5 = document.createElement('h5');
-      h5.textContent = receita.titulo;
-      const p = document.createElement('p');
-      p.textContent = receita.descricao;
-      
-      caption.appendChild(h5);
-      caption.appendChild(p);
-      link.appendChild(caption);
-      item.appendChild(link);
-      
-      inner.appendChild(item);
+  /*CARROSEL*/
+  if (document.getElementById('ads')) { 
+    const receitasDestaque = dados.receitas.slice(0, 3);
+
+    let indicadoresHTML = '';
+    receitasDestaque.forEach((receita, i) => {
+      indicadoresHTML += `
+        <button
+          type="button"
+          data-bs-target="#ads"
+          data-bs-slide-to="${i}"
+          ${i === 0 ? 'class="active" aria-current="true"' : ''}
+          aria-label="Slide ${i+1}">
+        </button>
+      `;
     });
+    document.querySelector('#ads .carousel-indicators').innerHTML = indicadoresHTML;
+  
+    let innerHTML = '';
+    receitasDestaque.forEach((r, i) => {
+      innerHTML += `
+        <div class="carousel-item ${i === 0 ? 'active' : ''}" data-bs-interval="3000">
+          <a href="detalhes.html?id=${r.id}">
+            <img
+              src="${r.images[0].src}"
+              class="d-block w-100"
+              alt="${r.titulo}">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>${r.titulo}</h5>
+              <p>${r.descricao}</p>
+            </div>
+          </a>
+        </div>
+      `;
+    });
+    document.querySelector('#ads .carousel-inner').innerHTML = innerHTML;
+  }
+
+  /*CARDS*/
+  if (document.getElementById('container-cards')) {
+    const todas = dados.receitas;
+    let txtHTMLCards = '';
+  
+    for (let i = 0; i < todas.length; i++) {
+      const r = todas[i];
+      txtHTMLCards += `
+        <div class="col">
+          <div class="card h-100">
+            <a href="detalhes.html?id=${r.id}">
+              <img src="${r.images[0].src}"
+                   class="card-img-top"
+                   alt="${r.titulo}">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">${r.titulo}</h5>
+              <h6 class="card-subtitle mb-2">${r.ocasiao}</h6>
+              <p class="card-text">
+                ${r.descricao}
+              </p>
+              <a href="detalhes.html?id=${r.id}" class="link-light">
+                <button type="button"
+                        class="btn"
+                        style="background-color:#4c9628;">
+                  Ver mais
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+  
+    document.getElementById('container-cards').innerHTML = txtHTMLCards;
+  }
+
+  /*Página Detalhes*/
+  document.addEventListener('DOMContentLoaded', () => {
+
+    //id
+    const params = new URLSearchParams(window.location.search);
+    const id = parseInt(params.get('id'), 10);
+    const receita = dados.receitas.find(r => r.id === id) || dados.receitas[0];
+  
+    //título
+    const tituloEl = document.querySelector('main .display-5.text-center');
+    if (tituloEl) tituloEl.textContent = receita.titulo;
+  
+    //imagem da receita
+    const imgPrincipal = document.querySelector('.div-img .img-conteudo');
+    if (imgPrincipal) {
+      imgPrincipal.src = receita.images[0].src;
+      imgPrincipal.alt = receita.titulo;
+    }
+  
+    //dica de ocasião
+    const subtituloEl = document.querySelector('.titulo-2');
+    if (subtituloEl) subtituloEl.textContent = receita.ocasiao;
+  
+    //descrição
+    const descEl = document.querySelector('.texto-layout');
+    if (descEl) descEl.textContent = receita.descricao;
+  
+    //tempo de preparo
+    const tempoP = document.querySelector('.fa-clock-o')
+      ?.closest('.card-body')
+      .querySelector('.texto-card');
+    if (tempoP) tempoP.textContent = receita.prepTime;
+  
+    //nível de dificuldade da receita
+    const diffP = document.querySelector('.fa-cutlery')
+      ?.closest('.card-body')
+      .querySelector('.texto-card');
+    if (diffP) diffP.textContent = receita.dificuldade;
+  
+    //ingredientes
+    const ulIng = document.getElementById('ingredientes');
+    if (ulIng) {
+      ulIng.innerHTML = '';
+      receita.ingredientes.forEach(item => {
+        const li = document.createElement('li');
+        li.className = 'col-md-6';
+        li.innerHTML = `<p>${item}</p>`;
+        ulIng.appendChild(li);
+      });
+    }
+  
+    //modo de preparo
+    const olPrep = document.getElementById('modo-de-preparo');
+    if (olPrep) {
+      olPrep.innerHTML = '';
+      receita.preparo.forEach(step => {
+        const li = document.createElement('li');
+        li.textContent = step;
+        olPrep.appendChild(li);
+      });
+    }
+  
+    //fotos da receita
+    const fotosContainer = document.querySelector('.fotos-item');
+    if (fotosContainer) {
+      fotosContainer.innerHTML = '';
+      receita.images.forEach(imgObj => {
+        const div = document.createElement('div');
+        div.className = 'col-md-3 text-center';
+        div.innerHTML = `
+          <img
+            src="${imgObj.src}"
+            class="img-thumbnail img-fluid"
+            alt="${imgObj.legenda}"
+            style="height: 300px; width: 200px;">
+          <p class="text-break mt-2">${imgObj.legenda}</p>
+        `;
+        fotosContainer.appendChild(div);
+      });
+    }
   });

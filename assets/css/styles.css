@@ -37,6 +37,11 @@ footer{
     width: 40px;
 }
 
+#ads .carousel-item img {
+    max-height: 420px;  
+    object-fit: cover;    
+    width: 100%;        
+  }
 
 /*Conteúdo de Detalhes.html*/
 
